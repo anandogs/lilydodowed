@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: None;
+  border: none;
+  color: var(--primary-font-color);
+}
+li {
+  list-style-type: none;
+}
+
+body {
+    font-family: 'Merriweather', serif;
+}
+
+h1 {
+    font-size: 2.5rem;
+    letter-spacing: .125rem;
+    color: #D28FA5;
+
+}
+
+.layout {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.layout img {
+    width: 25rem;
+    max-width: 100vw;
+}
+
+.inviteHeader {
+    width: 22.5rem;
+    max-width: 100vw;
+    padding: 2rem;
+    text-align: center;
+}
+
+
+
+.textBody{
+    background: url('../../public/bg.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    min-height: 25rem;
+    width: 25rem;
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.textBody p {
+    margin: 1em 5em;
+    text-align: center;
+}
+
+input {
+    height: 2rem;
+    width: 9.125rem;
+    max-width: 100%;
+    margin-bottom: 1em;
+    text-align: center;
+
+}
+
+button{
+    height: 2rem;
+    width: 9.125rem;
+    max-width: 100%;
+    background-color: #AAE3DF;
+    color: #ffffff;
+}
+
+.textBody form {
+    display: flex;
+    flex-direction: column;
+
+    
+}
+
+
+.sideBySide{
+    display: flex;
+    width: 50%;
+    justify-content: space-around;
+    font-size: 35px;
+}
+
+.flowerBox{
+    padding: 1.5em 0;
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    
+}
+
+.flowerBox img {
+    width: 2.25rem;
+}
