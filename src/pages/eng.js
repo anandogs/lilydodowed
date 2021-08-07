@@ -15,7 +15,7 @@ export default function Engagement({ location }) {
       <Layout>
     <div className='invite'>
     <div className='textBody'>
-      <p>Are you joining us for the ring ceremony?</p>
+      <p>Are you joining us for the ring ceremony on the 11th at 6M?</p>
       <div className='sideBySide'>
       <Link to="/rec" onClick={updateVal} state={cur_dict}>
       &#x1F919;&#127997;

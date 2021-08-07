@@ -7,7 +7,7 @@ export default function Ciao() {
         <Layout>
           <div className='invite'>
             <div className="textBody">
-              <p>Thank you for your time! If you are coming for the event then you will get a message with the details!</p>
+              <p>Thank you for your time! If you are coming for the event then you will get a message with location details!</p>
               <div className="sideBySide">
                 <span>&#x1f64f;&#127997;</span>
               </div>

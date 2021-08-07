@@ -15,7 +15,7 @@ export default function Reception({ location }) {
     <Layout>
   <div className='invite'>
   <div className='textBody'>
-    <p>Are you coming for the reception on the 14th?</p>
+    <p>Are you coming for the reception on the 14th (7PM onwards)?</p>
     <div className='sideBySide'>
     <Link to="/plus" onClick={updateVal} state={cur_dict}>
     &#x1F919;&#127997;
