@@ -7,10 +7,12 @@ import Layout from "../components/Layout"
 export default function PlusOne({ location }) {
   console.log(location.state)
 
-  if (location.state.attending11 + location.state.attending14 === 0) {
-    firestore.collection("attendees-11-14").add(location.state)
+  if (location.state) {
+    if (location.state.attending11 + location.state.attending14 === 0) {
+      firestore.collection("attendees-11-14").add(location.state)
 
-    return <Ciao />
+      return <Ciao />
+    }
   }
 
   const cur_dict = location.state
@@ -34,13 +36,13 @@ export default function PlusOne({ location }) {
             </Link>
           </div>
         </div>
-        <div className='flowerBox'>
-        <img src='Flower_Highlight_.png' alt='highlighted-flower'></img>
-        <img src='Flower_Highlight_.png' alt='highlighted-flower'></img>
-        <img src='Flower_Highlight_.png' alt='highlighted-flower'></img>
-        <img src='Flower_Highlight_.png' alt='highlighted-flower'></img>
-      <img src='Flower.png' alt='unhighlighted-flower'></img>
-      </div>
+        <div className="flowerBox">
+          <img src="Flower_Highlight_.png" alt="highlighted-flower"></img>
+          <img src="Flower_Highlight_.png" alt="highlighted-flower"></img>
+          <img src="Flower_Highlight_.png" alt="highlighted-flower"></img>
+          <img src="Flower_Highlight_.png" alt="highlighted-flower"></img>
+          <img src="Flower.png" alt="unhighlighted-flower"></img>
+        </div>
       </div>
     </Layout>
   )
