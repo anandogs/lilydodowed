@@ -32,7 +32,7 @@ export default function Home() {
 
   return (
     <Layout>
-      <div>
+      <div className='invite'>
       <div className="textBody">
         <p>Can we have your name and Number please?</p>
         <form>

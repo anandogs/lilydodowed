@@ -13,7 +13,7 @@ li {
 
 body {
     font-family: 'Merriweather', serif;
-
+    
 }
 
 h1 {
@@ -34,16 +34,24 @@ h1 {
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 25rem;
+    max-width: 25rem;
 }
 
-.layout img {
+.heroImage {
     width: 100%;
 }
 
+.inviteBody {
+    text-align: center;
+}
+
+.inviteBody h1 {
+    margin: 1em 0;
+}
+
 .inviteHeader {
-    width: 22.5rem;
-    max-width: 100vw;
+    min-width: 100vw;
+    max-width: 22.5rem;
     padding: 2rem;
     text-align: center;
 }

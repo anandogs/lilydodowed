@@ -6,8 +6,7 @@ export default function Layout({ children }) {
   return (
   <div className='centerLayout'>
   <div className="layout">
-      <StaticImage src="../images/dl.png"/>
-      <div className='inviteHeader'><h1>A little RSVP goes a long way!</h1></div>
+      <StaticImage className='heroImage' src="../images/nav.png"/>
       <div className='inviteBody'>
       {children}
       </div>

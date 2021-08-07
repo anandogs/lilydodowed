@@ -13,7 +13,7 @@ export default function Reception({ location }) {
 
   return (
     <Layout>
-  <div>
+  <div className='invite'>
   <div className='textBody'>
     <p>Are you coming for the reception on the 14th?</p>
     <div className='sideBySide'>

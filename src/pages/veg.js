@@ -21,7 +21,7 @@ export default function Veg({ location }) {
 
   return (
     <Layout>
-      <div>
+      <div className='invite'>
         <div className="textBody">
           <p>What will you be eating?</p>
           <div className="sideBySide">

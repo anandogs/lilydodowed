@@ -6,7 +6,7 @@ import Layout from "../components/Layout"
 import { StaticImage } from "gatsby-plugin-image"
 
 export default function PlusOne({ location }) {
-
+  console.log(location.state)
 
   if (location.state) {
     if (location.state.attending11 + location.state.attending14 === 0) {

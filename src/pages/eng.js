@@ -13,7 +13,7 @@ export default function Engagement({ location }) {
 
   return (
       <Layout>
-    <div>
+    <div className='invite'>
     <div className='textBody'>
       <p>Are you joining us for the ring ceremony?</p>
       <div className='sideBySide'>
