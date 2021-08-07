@@ -12,7 +12,10 @@ export default function Landing1() {
       <div className='inviteBody'>
       <h1>Welcome to our celebrations!</h1>
         <Link to='/landing226'><button>RSVP!</button></Link>
+        <div style={{margin:'16px 0'}}></div>
+        
       </div>
+      
       </div>
         </div>
     )

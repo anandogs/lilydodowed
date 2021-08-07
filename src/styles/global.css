@@ -73,7 +73,7 @@ h1 {
 }
 
 .textBody p {
-    margin: 1em 5em;
+    margin: 16px 80px;
     text-align: center;
     font-size: 18px;
 }
@@ -112,7 +112,7 @@ button{
 }
 
 .flowerBox{
-    padding: 1.5em 0;
+    padding: 24px 0;
     display: flex;
     width: 100%;
     justify-content: space-evenly;
