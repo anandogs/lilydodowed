@@ -110,7 +110,7 @@ button{
 }
 
 .flowerBox img {
-    max-width: 2.25rem;
+    width: 1rem;
     
-    max-height: 2.25rem;
+    height: 1rem;
 }

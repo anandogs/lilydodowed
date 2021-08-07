@@ -26,6 +26,9 @@ export default function Home() {
     })
   }
 
+  function handleSubmit() {
+    console.log(values)
+  }
 
   return (
     <Layout>
@@ -48,7 +51,7 @@ export default function Home() {
             placeholder="Number"
           />
           <Link to="/eng" state={values}>
-            <button>Submit</button>
+            <button onClick={handleSubmit}>Submit</button>
           </Link>
         </form>
       </div>
