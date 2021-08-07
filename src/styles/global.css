@@ -62,7 +62,7 @@ h1 {
     background: url('../../public/bg.png');
     background-repeat: no-repeat;
     background-size: contain;
-    min-height: 25rem;
+    min-height: 400px;
     width: 100%;
     max-width: 100%;
     display: flex;
@@ -72,8 +72,10 @@ h1 {
 
 }
 
-.textBody p {
-    margin: 16px 80px;
+.textBody > p {
+    margin-left: 80px;
+    margin-right: 80px;
+    margin-bottom: 18px;
     text-align: center;
     font-size: 18px;
 }
@@ -112,7 +114,7 @@ button{
 }
 
 .flowerBox{
-    padding: 24px 0;
+    margin-top: 10px;
     display: flex;
     width: 100%;
     justify-content: space-evenly;
