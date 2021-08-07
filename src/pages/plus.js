@@ -6,7 +6,7 @@ import Layout from "../components/Layout"
 import { StaticImage } from "gatsby-plugin-image"
 
 export default function PlusOne({ location }) {
-  console.log(location.state)
+
 
   if (location.state) {
     if (location.state.attending11 + location.state.attending14 === 0) {
@@ -26,7 +26,7 @@ export default function PlusOne({ location }) {
     <Layout>
       <div>
         <div className="textBody">
-          <p>Will you have a +1 with you?</p>
+          <p>Will you be coming alone or with someone?</p>
           <div className="sideBySide">
             <Link to="/veg" state={cur_dict}>
               &#x1F9DF;

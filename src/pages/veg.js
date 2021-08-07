@@ -23,7 +23,7 @@ export default function Veg({ location }) {
     <Layout>
       <div className='invite'>
         <div className="textBody">
-          <p>What will you be eating?</p>
+          <p>What would you prefer to eat?</p>
           <div className="sideBySide">
             <Link to="/bye" onClick={submitDetails} state={cur_dict}>
               &#x1F966;

@@ -75,6 +75,7 @@ h1 {
 .textBody p {
     margin: 1em 5em;
     text-align: center;
+    font-size: 18px;
 }
 
 input {
