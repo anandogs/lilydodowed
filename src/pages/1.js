@@ -3,6 +3,8 @@ import { useState } from "react"
 import { Link } from "gatsby"
 import Layout from "../components/Layout"
 import "../styles/global.css"
+import { StaticImage } from "gatsby-plugin-image"
+
 
 export default function Home() {
   const userStats = {
@@ -24,9 +26,6 @@ export default function Home() {
     })
   }
 
-  function handleSubmit() {
-    console.log(values)
-  }
 
   return (
     <Layout>
@@ -44,21 +43,21 @@ export default function Home() {
           <input
             value={values.personNumber}
             onChange={handleInputChange}
-            type="text"
+            type="number"
             name="personNumber"
             placeholder="Number"
           />
           <Link to="/eng" state={values}>
-            <button onClick={handleSubmit}>Submit</button>
+            <button>Submit</button>
           </Link>
         </form>
       </div>
       <div className='flowerBox'>
-      <img src='Flower_Highlight_.png' alt='highlighted-flower'></img>
-      <img src='Flower.png' alt='unhighlighted-flower'></img>
-      <img src='Flower.png' alt='unhighlighted-flower'></img>
-      <img src='Flower.png' alt='unhighlighted-flower'></img>
-      <img src='Flower.png' alt='unhighlighted-flower'></img>
+      <StaticImage src='../images/Flower_Highlight_.png' alt='highlighted-flower'/>
+      <StaticImage src='../images/Flower.png' alt='unhighlighted-flower'/>
+      <StaticImage src='../images/Flower.png' alt='unhighlighted-flower'/>
+      <StaticImage src='../images/Flower.png' alt='unhighlighted-flower'/>
+      <StaticImage src='../images/Flower.png' alt='unhighlighted-flower'/>
       </div>
       </div>
     </Layout>

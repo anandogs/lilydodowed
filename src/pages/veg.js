@@ -2,10 +2,11 @@ import { Link } from "gatsby"
 import React from "react"
 import Layout from "../components/Layout"
 import { firestore } from "../utils/firebase"
+import { StaticImage } from "gatsby-plugin-image"
 
 
 export default function Veg({ location }) {
-  console.log(location.state)
+
   const cur_dict = location.state
 
   function updateVal() {
@@ -34,11 +35,11 @@ export default function Veg({ location }) {
           </div>
         </div>
         <div className='flowerBox'>
-        <img src='Flower_Highlight_.png' alt='highlighted-flower'></img>
-        <img src='Flower_Highlight_.png' alt='highlighted-flower'></img>
-        <img src='Flower_Highlight_.png' alt='highlighted-flower'></img>
-        <img src='Flower_Highlight_.png' alt='highlighted-flower'></img>
-        <img src='Flower_Highlight_.png' alt='highlighted-flower'></img>
+        <StaticImage src='../images/Flower_Highlight_.png' alt='highlighted-flower'/>
+        <StaticImage src='../images/Flower_Highlight_.png' alt='highlighted-flower'/>
+        <StaticImage src='../images/Flower_Highlight_.png' alt='highlighted-flower'/>
+        <StaticImage src='../images/Flower_Highlight_.png' alt='highlighted-flower'/>
+        <StaticImage src='../images/Flower_Highlight_.png' alt='highlighted-flower'/>
             </div>
       </div>
     </Layout>

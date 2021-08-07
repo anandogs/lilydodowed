@@ -1,9 +1,10 @@
 import { Link } from "gatsby"
 import React from "react"
 import Layout from "../components/Layout"
+import { StaticImage } from "gatsby-plugin-image"
 
 export default function Reception({ location }) {
-  console.log(location.state)
+
   const cur_dict = location.state
 
   function updateVal() {
@@ -26,11 +27,11 @@ export default function Reception({ location }) {
     </div>
   </div>
   <div className='flowerBox'>
-  <img src='Flower_Highlight_.png' alt='highlighted-flower'></img>
-  <img src='Flower_Highlight_.png' alt='highlighted-flower'></img>
-  <img src='Flower_Highlight_.png' alt='highlighted-flower'></img>
-      <img src='Flower.png' alt='unhighlighted-flower'></img>
-      <img src='Flower.png' alt='unhighlighted-flower'></img>
+  <StaticImage src='../images/Flower_Highlight_.png' alt='highlighted-flower'/>
+  <StaticImage src='../images/Flower_Highlight_.png' alt='highlighted-flower'/>
+  <StaticImage src='../images/Flower_Highlight_.png' alt='highlighted-flower'/>
+      <StaticImage src='../images/Flower.png' alt='unhighlighted-flower'/>
+      <StaticImage src='../images/Flower.png' alt='unhighlighted-flower'/>
             </div>
   </div>
   </Layout>

@@ -3,9 +3,10 @@ import React from "react"
 import { firestore } from "../utils/firebase"
 import Ciao from "./bye"
 import Layout from "../components/Layout"
+import { StaticImage } from "gatsby-plugin-image"
 
 export default function PlusOne({ location }) {
-  console.log(location.state)
+
 
   if (location.state) {
     if (location.state.attending11 + location.state.attending14 === 0) {
@@ -37,11 +38,11 @@ export default function PlusOne({ location }) {
           </div>
         </div>
         <div className="flowerBox">
-          <img src="Flower_Highlight_.png" alt="highlighted-flower"></img>
-          <img src="Flower_Highlight_.png" alt="highlighted-flower"></img>
-          <img src="Flower_Highlight_.png" alt="highlighted-flower"></img>
-          <img src="Flower_Highlight_.png" alt="highlighted-flower"></img>
-          <img src="Flower.png" alt="unhighlighted-flower"></img>
+        <StaticImage src='../images/Flower_Highlight_.png' alt='highlighted-flower'/>
+        <StaticImage src='../images/Flower_Highlight_.png' alt='highlighted-flower'/>
+        <StaticImage src='../images/Flower_Highlight_.png' alt='highlighted-flower'/>
+        <StaticImage src='../images/Flower_Highlight_.png' alt='highlighted-flower'/>
+      <StaticImage src='../images/Flower.png' alt='unhighlighted-flower'/>
         </div>
       </div>
     </Layout>

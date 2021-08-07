@@ -1,5 +1,6 @@
 import React from "react"
 import Layout from "../components/Layout"
+import { StaticImage } from "gatsby-plugin-image"
 
 export default function Ciao() {
     return (
@@ -12,11 +13,11 @@ export default function Ciao() {
               </div>
             </div>
             <div className='flowerBox'>
-            <img src='Flower_Highlight_.png' alt='highlighted-flower'></img>
-            <img src='Flower_Highlight_.png' alt='highlighted-flower'></img>
-            <img src='Flower_Highlight_.png' alt='highlighted-flower'></img>
-            <img src='Flower_Highlight_.png' alt='highlighted-flower'></img>
-            <img src='Flower_Highlight_.png' alt='highlighted-flower'></img>
+            <StaticImage src='../images/Flower_Highlight_.png' alt='highlighted-flower'/>
+            <StaticImage src='../images/Flower_Highlight_.png' alt='highlighted-flower'/>
+            <StaticImage src='../images/Flower_Highlight_.png' alt='highlighted-flower'/>
+            <StaticImage src='../images/Flower_Highlight_.png' alt='highlighted-flower'/>
+            <StaticImage src='../images/Flower_Highlight_.png' alt='highlighted-flower'/>
             </div>
           </div>
         </Layout>

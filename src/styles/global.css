@@ -97,10 +97,11 @@ button{
     padding: 1.5em 0;
     display: flex;
     width: 100%;
-    justify-content: space-around;
+    justify-content: space-evenly;
     
 }
 
 .flowerBox img {
     width: 2.25rem;
+    height: 2.25rem;
 }

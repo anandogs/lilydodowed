@@ -1,9 +1,10 @@
 import React from "react"
 import "../styles/global.css"
+import { StaticImage } from "gatsby-plugin-image"
 
 export default function Layout({ children }) {
   return <div className="layout">
-      <img src='dl.png'></img>
+      <StaticImage src="../images/dl.png"/>
       <div className='inviteHeader'><h1>A little RSVP goes a long way!</h1></div>
       <div className='inviteBody'>
       {children}
